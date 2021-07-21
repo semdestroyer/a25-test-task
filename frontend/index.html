@@ -56,13 +56,13 @@
         </div>
         
         <div class="formdiv">
-            <form>
+            
                 <h1>Заказать</h1>
-                <input type="text" placeholder="Имя" class="inpmod">
-                <input type="text" placeholder="Телефон" class="inpmod">
-                <input type="text" placeholder="E-mail" class="inpmod">
-                <button type="submit" class="butmod">Отправить</button>
-            </form>
+                <input type="text" placeholder="Имя" class="inpmod" id="name" required>
+                <input type="text" placeholder="Телефон" class="inpmod" id="phone" required>
+                <input type="email" placeholder="E-mail" class="inpmod" id="email" required>
+                <button type="button" class="butmod" onclick="send()">Отправить</button>
+            
         </div>
         </div>
         <footer>
